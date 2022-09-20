@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <title>YouTube</title>
+</head>
+<body>
+    <header>
+        <div class="flexbox">
+            <div class="left-section">
+                <img src="icons/hamburger-menu.svg" class="three-lines">
+                <a href="https://www.youtube.com/" class="youtube-link" title="YouTube" target="_blank"><img src="/Icons/youtube.jpg"  class="logo"></a>
+            </div>
+            <div class="middle-section">
+                <input type="text" id="pesquisa" required placeholder="Pesquisa">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="search-text"></div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                </button>
+            </div>
+            <div class="right-section">
+                <img class="upload-icon" src="/Icons/upload.svg">
+                <img class="youtube-app-icon" src="/Icons/youtube-apps.svg">
+                <div class="notifications-dash-container">
+                    <img class="notifications-icon" src="/Icons/notifications.svg">
+                    <div class="notifications-count">3</div>
+                </div>
+                <img class="current-profile-picture" src="/profile-pictures/channel7.jpg">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img src="/Icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="/Icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="/Icons/subscriptions.svg">
+                <div>Subscription</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="/Icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="/Icons/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="/Icons/library.svg">
+                <div>Libraries</div>
+            </div>
+        </div>
+        <div class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row"> 
+                    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+                    <div class="video-timer">7:45</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="profile-pictures/channel1.jpg">
+                    </div>
+                    <div class="video-info">
+                        <h1 class="video-title">Local Storage in 5 minutes</h1>
+                        <p class="video-creator">Smoljames</p>
+                        <p class="video-stats">160 visualizações há 8 dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                    <div class="video-timer">11:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="profile-pictures/channel2.jpg">
+                    </div>
+                    <div class="video-info">
+                        <h1 class="video-title">What Happens When You Only Eat McDonalds For 30 Days</h1>
+                        <p class="video-creator">Doctor Mike</p>
+                        <p class="video-stats">1,8 M de visualizações há 13 dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+                    <div class="video-timer">4:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="profile-pictures/channel3.jpg">
+                    </div>
+                    <div class="video-info">
+                        <h1 class="video-title">O INACREDITÁVEL aconteceu</h1>
+                        <p class="video-creator">Cortes do Davy Jones [OFICIAL]</p>
+                        <p class="video-stats">5,4 mil visualizações há 2 horas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row"> 
+                    <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+                    <div class="video-timer">21:12</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="profile-pictures/channel4.jpg">
+                    </div>
+                    <div class="video-info">
+                        <h1 class="video-title">MELHOR FORMA DE APRENDER PYTHON (Google Colab Notebook)</h1>
+                        <p class="video-creator">Filipe Deschamps</p>
+                        <p class="video-stats">758 mil visualizações há 2 anos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+                    <div class="video-timer">17:32</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="profile-pictures/channel5.jpg">
+                    </div>
+                    <div class="video-info">
+                        <h1 class="video-title">NOVIDADES SOBRE o MULTIPLAYER do MWII e uma PREOCUPAÇÃO para o WARZONE 2...</h1>
+                        <p class="video-creator">Hayashii - Dicas, notícias e opiniões!</p>
+                        <p class="video-stats">59 mil visualizações há 3 semanas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+                    <div class="video-timer">9:55</div> 
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="profile-pictures/channel6.jpg">
+                    </div>
+                    <div class="video-info">
+                        <h1 class="video-title">Start Automating Your Life Using Python! (File Management with Python Tutorial)</h1>
+                        <p class="video-creator">Internet Made Coder</p>
+                        <p class="video-stats">442 mil visualizações há 3 meses</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row"> 
+                    <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+                    <div class="video-timer">7:45</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="profile-pictures/channel8.jpg">
+                    </div>
+                    <div class="video-info">
+                        <h1 class="video-title">MidLB Highlights (BpCampos/MDG salamito)</h1>
+                        <p class="video-creator">salama plays</p>
+                        <p class="video-stats">73 visualizações há 1 ano</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row"> 
+                    <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+                    <div class="video-timer">3:13</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="profile-pictures/channel7.jpg">
+                    </div>
+                    <div class="video-info">
+                        <h1 class="video-title">Elden Ring - Farm de runas! 11000 runas no early game, usando área do late game!</h1>
+                        <p class="video-creator">BPcampos</p>
+                        <p class="video-stats">2,1 mil visualizações há 5 meses</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
